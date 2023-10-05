@@ -4,7 +4,7 @@
 
 * Data Scientist would carefully formulate the question that they're looking to answer. A clear and well formulated question will
   dertermine the research and it will also affect the kind of data that you will go out and gather.
-* Real world data is always missing. We have to always explore the data and visualize it so that we understand what it is that 
+* Real world data is always missing. We have to always explore the data and visualize it so that we understand what it is that
   we're looking at.
 
 --- Process ---
@@ -20,7 +20,7 @@ and linear regression)
 
 As Data Scientists we can look at this question and identify exactly what it is that we are trying to predict namely the movie revenue.
 A Data Scientist would call this a dependent variable and in ML this would be called the target.
-We can identify what it that we are using to make the prediction namely the movie budget A Data Scientist would call the budget the 
+We can identify what it that we are using to make the prediction namely the movie budget A Data Scientist would call the budget the
 Independent varriable. In ML this would be called the feature.
 
 We now have our Question, next step is to gather the data.
@@ -55,7 +55,7 @@ The slope tells us how much y will change for a given change in x. The larges th
 If there is not relationship between x and y then we would have a straight line where m=0. The stronge the relationship the steepr the
 slope.
 There's a big difference between machine learning and pure mathematics; in machine learning, we don't actually know the ture relationship
-and that's why we refer to the slope and the intercept as parameters and these parameeters have to be estimated for our 
+and that's why we refer to the slope and the intercept as parameters and these parameeters have to be estimated for our
 linear regression.
 we change some notation we replace c with theta0 and slope coefficient m will be written as theta1 and the change the order
 hthetax = theta0 + theta1.x where h stands for hypothesis
@@ -83,7 +83,7 @@ lowest sum because some data points are below the line which will be negatives w
 these numbers positive and the way we can do that is by squaring the residuals.
 * Now we got the sum of squred residuals, a single number. This is the number the linear regression will try to minimize in order to
 choose the best parameters for the line.
-In other words to find the best possible fit for our regression, we need to choose our theta0 and theta1 that minmizes the sum of the 
+In other words to find the best possible fit for our regression, we need to choose our theta0 and theta1 that minmizes the sum of the
 squared residuals.
 * This number is also referred to as residual sum of squares or RSS.
 
@@ -93,7 +93,7 @@ Once we fit our model the question we need to ask ourselves is are these paramet
 What this intercept is literllay telling us is that a movie with a budget of zero would actually lose over 7million. That's a bit problematic
 and unrealistic.
 
-What should we conclude about our model.? We have to accept that our model is a dramatic simplification of the real world as such we 
+What should we conclude about our model.? We have to accept that our model is a dramatic simplification of the real world as such we
 should be a little bit careful on how much we believe the predictions of our model, especially at the extreme ends. Our model seems to
 fit the data a lot worse at the extreme.
 How much of the real world data is explained by our model.? For that we need some kind of measure or statistic and the measue we are going
